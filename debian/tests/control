@@ -1,0 +1,7 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test glob 0.3.0 --all-targets --all-features
+Depends: dh-cargo (>= 18), librust-tempdir-0.3+default-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test glob 0.3.0 --all-targets --no-default-features
+Depends: dh-cargo (>= 18), librust-tempdir-0.3+default-dev, librust-glob-dev
+Restrictions: allow-stderr, skip-not-installable

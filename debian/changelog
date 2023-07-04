@@ -1,5 +1,14 @@
-template-repository (1.0-1) unstable; urgency=medium
+rust-glob (0.3.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Package glob 0.3.0 from crates.io using debcargo 2.4.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ kpcyrd ]
+  * Package glob 0.3.0 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 16 Jul 2019 23:27:25 -0700
+
+rust-glob (0.2.11-1) unstable; urgency=medium
+
+  * Package glob 0.2.11 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Jun 2018 11:56:20 -0700
