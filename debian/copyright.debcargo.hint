@@ -4,8 +4,34 @@ Upstream-Contact: The Rust Project Developers
 Source: https://github.com/rust-lang/glob
 
 Files: *
-Copyright: 2013-2019 The Rust Project Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS The Rust Project Developers
 License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2014 The Rust Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright: 2014 The Rust Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./tests/glob-std.rs
+Copyright: 2013-2014 The Rust Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
